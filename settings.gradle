@@ -1,0 +1,6 @@
+rootProject.name = 'docker-mongo-rmq-multimodule'
+include 'docker-mongo-rmq-multimodule-api-model'
+include 'docker-mongo-rmq-multimodule-api-data'
+include 'docker-mongo-rmq-multimodule-api-service'
+include 'docker-mongo-rmq-multimodule-api-web'
+

@@ -1,0 +1,14 @@
+plugins {
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+allprojects {
+	group = 'com.nexient'
+	version = '0.0.1-SNAPSHOT'
+	sourceCompatibility = '17'
+
+	repositories {
+		mavenCentral()
+	}
+}
